@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 body {
   margin: 20px;
 }
@@ -19,7 +22,7 @@ body {
 
 .box .cabecalho {
   background: url("/capas/Fue.png") no-repeat;
-  height: 20vh;
+  height: 50vh;
   background-color: #F8E2E1;
 }
 
@@ -35,30 +38,180 @@ body {
     background-color: #b7b7b7;
 }
 
+/*Mudar cor */
 h1{
 font-family: Lucida Sans Unicode;
 color: #ffffff;
 }
 
-/*Layout Menu*/
+#titulo{
+  margin: 120px 20%;
+  font-size: 100px;
+  font-family:'Prata';
+}
+
+/*Posição na Página */
+/* Centralização Padrão */
+div.divPadrao{
+  margin: 20px 50px;
+  text-align: center;
+}
+
+/* Centralização Padrão imagem */
+img.divPadrao{
+  margin: 20px 50px;
+  text-align: center;
+}
+/* Linha Separação */
+div.separa {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent); 
+  margin: 70px 0px;
+}
+/*Posicao Conteudos*/
+div.conteudo-left{
+  margin: 0px 0px 150px 200px;
+  width:500px;
+  height:400px;
+  float:left;
+  }
+div.conteudo-right{
+  margin: 0px 0px 150px 0px;
+  width:600px;
+  height:400px;
+  float:left;
+  background-color: #eee8e8;
+  text-align:center;
+  }
+
+/*Imagem*/
+/*Tamanho Imagens*/
+img.imgtam{
+  margin: 10px 10px;
+   width: 20%;
+  height: 20%;
+}
+img.img{
+   width: 100%;
+  height: 100%;
+}
+
+/*Tabela*/
+/* Especifaçoes td da tabela */
+table.tabelap td {
+  text-align: center;
+  border: 1px #b9b5b1 solid;
+  width:20px;
+  height:20px;
+}
+/* Especifaçoes tabela */
+.tabelap {
+  margin: 0px 15px 0px 160px;
+  text-align: center;
+  width:280px;
+  height:100px;
+}
+/* Poscicao tabela */
+table.cardposc{
+  margin: 0px 0px 0px 40%;
+  width:380px;
+  height:100px;
+}
+table.cardposc td{
+   text-align: center;
+}
+
+
+/*Texto */
+/* Especifaçoes font a(texto) */
+a.subtitulo{
+  margin: 2% 0px;
+  text-align: center;
+  font-family:'Prata';
+  color: #594543;
+}
+
+p.subtitulo{
+  margin: 2% 0px;
+  text-align: center;
+  font-family:'Prata';
+  color: #594543;
+}
+
+h2.subtitulo{
+  margin: 2% 0px;
+  text-align: center;
+  font-family:'Prata';
+  color: #594543;
+}
+/* Centralização Padrão e mais especificações fonte paragrafo */
+p.divsubPadrao{
+  margin: 20px 50px;
+  text-align: center;
+  font-family:'Prata';
+  color: #594543;
+}
+p.nomecard{
+  margin: 20px 0px;
+  font-size: 30px;
+  font-family:'Prata';
+  font-style: italic;
+  font-weight: bold;
+   color: #594543;
+}
+p.descrcard{
+  margin: 20px 0px;
+  font-size: 20px;
+  font-family:'Prata';
+  font-weight: bold;
+  color: #504f4e;
+}
+p.descr{
+   margin: 5px 30px;
+   font-size: 10px;
+  font-family:'Prata';
+  color: #8b8784;
+}
+p.nome{
+   margin: 5px 30px;
+     font-size: 15px;
+  font-family:'Prata';
+  color: #594543;
+}
+p.texto{
+  margin: 20px 0px;
+  font-size: 20px;
+  text-align: center;
+  font-family:'Prata';
+}
+h5.texto{
+  margin: 20px 0px;
+  font-size: 20px;
+  text-align: center;
+  font-family:'Prata';
+}
+
 #menu-h{
   display: flex;
 	position: fixed;
 	transition: 0.3s;
-	margin: 10px 15%;
-	border-radius: 50px;
-	width: 70%;
+	width: 99,9%;
 	background: white;
-  margin: 7% 10%;
 }
+
 #menu-h ul li a {
     color: #000000;
     display: inline-block;
     transition: background .4s;
+    font-size: 20px;
+    font-family:'Prata';
+  	margin: 0px 20px;
+
 }
 
 #menu-h ul li a:hover {
   background-color: rgb(183, 169, 169);
-  border-radius: 30px;
+  border-radius: 0px;
 }
 
